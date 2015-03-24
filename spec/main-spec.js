@@ -14,4 +14,8 @@ describe("Incorrect ID", function() {
     expect(v('0150480716047')).toBe(false);
     expect(v('9150480716041')).toBe(false);
   });
+
+  it("Should detect an invalid checksum digit", function() {
+    expect(v('7150480716045')).toBe(false);
+  });
 });
