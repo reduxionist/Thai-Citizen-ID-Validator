@@ -1,11 +1,15 @@
 {
   "name": "thai-citizen-id-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
     "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reduxionist/thai-citizen-id-validator"
   },
   "author": "",
   "license": "ISC",
